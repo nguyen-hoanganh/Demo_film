@@ -1,5 +1,5 @@
-import 'package:film_demo/screen/cast%20_view.dart';
-import 'package:film_demo/screen/main_home/main_home.dart';
+import 'package:film_demo/screen/detailpage/cast/cast%20_view.dart';
+import 'package:film_demo/screen/detailpage/detail_1/detail_1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:CastView(),
+      home: Detail_1(),
     );
   }
 }
